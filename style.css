@@ -33,3 +33,10 @@ formInput{
     border-radius: 4px;
     font-size: 16px;
 }
+formInput #sheds{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
