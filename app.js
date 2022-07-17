@@ -26,4 +26,12 @@ function produceReport(){
     document.getElementById("outputData").innerHTML += "<p>Your total daily income is Ksh. " + dailyIncome + " </p>";
 
     document.getElementById("outputData").innerHTML += "<hr>"
+    
+    weeklyIncome = dailyIncome * 7;
+
+    document.getElementById("outputData").innerHTML += "<p>Your total weekly income is Ksh. " + weeklyIncome + " </p>";
+
+    document.getElementById("outputData").innerHTML += "<hr>"
+
+    document.getElementById("outputData").innerHTML += "<Br>"
 }
