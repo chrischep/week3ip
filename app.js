@@ -72,4 +72,14 @@ function produceReport(){
     document.getElementById("outputData").innerHTML += "<hr>"
 
     document.getElementById("outputData").innerHTML += "<Br>"
+
+   
+
+}
+ // we need to freh page once for when farmer wants to put in another day's record
+function resetPage(){
+
+    document.getElementById("outputData").remove("innerHTML");
+    location.reload();
+
 }
