@@ -76,3 +76,19 @@ body{
 #displayTitle{
     text-align: center;
 }
+#outputData{
+    padding: 0px 20px;
+}
+@media screen and (max-width: 760px) {
+    .milkinputs{
+        display: flex;
+        flex-direction: column; 
+    }
+    .formInput{
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+    .outputData{
+        width: 100%;
+    }
+}
