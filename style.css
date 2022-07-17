@@ -49,20 +49,19 @@ body{
     height: 30px;
      
 }
-.form > button {
+form > button {
     
     margin-bottom: 20px;
     padding: 10px 20px;
-    width: 100%;
-    
+    /* width: 100%;
+     */
+}
+#reset{
+    margin-left: 50%;
 }
 
-.form > button[type = "submit"]{
-    margin-top: 20px;
-}
-.form > button[type = "submit"], form > button[type = "reset"]{
+form > button[type = "submit"], form > button[type = "reset"]{
     margin-top: 5%;
-    margin-right: 15%;
     background: none;
     color: white;
     border: 1px solid white;
