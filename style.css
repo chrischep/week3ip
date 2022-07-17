@@ -61,6 +61,8 @@ body{
     margin-top: 20px;
 }
 .form > button[type = "submit"], form > button[type = "reset"]{
+    margin-top: 5%;
+    margin-right: 15%;
     background: none;
     color: white;
     border: 1px solid white;
