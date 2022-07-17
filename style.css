@@ -17,13 +17,13 @@ body{
     height: 60px;
     margin-top: 0px;
 }
-milkinputs{
+.milkinputs{
     width: 90%;
     margin: 0px auto;
     display: flex;
     justify-content: center;
 }
-formInput{
+.formInput{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,22 +33,22 @@ formInput{
     border-radius: 4px;
     font-size: 16px;
 }
-formInput #sheds{
+.formInput #sheds{
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 100%;
     margin-top: 20px;
 }
-formInput > form{
+.formInput > form{
     width: 100%;
     padding: 20px;
 }
-form > div > input[type="number"]{
+.form > div > input[type="number"]{
     height: 30px;
      
 }
-form > button {
+.form > button {
     
     margin-bottom: 20px;
     padding: 10px 20px;
@@ -56,11 +56,20 @@ form > button {
     
 }
 
-form > button[type = "submit"]{
+.form > button[type = "submit"]{
     margin-top: 20px;
 }
-form > button[type = "submit"], form > button[type = "reset"]{
+.form > button[type = "submit"], form > button[type = "reset"]{
     background: none;
     color: white;
     border: 1px solid white;
 } 
+.displayhere{
+    overflow: auto;
+    width: 50%;
+    box-shadow:0px 0px 10px rgb(150, 179, 169);
+    background-color: rgb(25, 49, 41);
+    border-radius: 4px;
+    font-size: 16px;
+    height: 550px;
+}
